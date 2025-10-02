@@ -306,7 +306,7 @@ def db_init():
     con.commit(); con.close()
 import urllib.request, json, tempfile, os, subprocess, sys
 
-UPDATE_CHECK_URL = "https://raw.githubusercontent.com/mrmego268/RepairDesk/version.json"  # رفع ملف JSON هنا
+UPDATE_CHECK_URL = "https://github.com/mrmego268/RepairDesk/blob/main/version.json"  # رفع ملف JSON هنا
 
 def check_for_updates(silent=False):
     try:
