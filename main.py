@@ -15,7 +15,7 @@ from pathlib import Path
 
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 # -------------------- Optional deps --------------------
 try:
