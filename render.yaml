@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: atta-license-server
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn license_server:app"
+    plan: free
